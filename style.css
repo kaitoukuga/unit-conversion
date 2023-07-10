@@ -1,0 +1,131 @@
+* {
+    margin: 10px;
+}
+body {
+    background-color: rgb(28, 20, 28);
+}
+#home {
+    margin: -1cm -1cm 0 -1cm;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    background-color: rgb(130, 10, 130);
+}
+section header {
+    font-size: 30px;
+    color: rgb(255, 116, 255);
+    float: left;
+    padding-left: 2cm;
+    margin: -10px 0 0 0;
+}
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+nav button {
+    color: rgb(198, 171, 215);
+    background-color: rgb(130, 10, 130);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    border: transparent;
+}
+nav button:hover {
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: violet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    cursor: default;
+}
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+figure {
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+figure img {
+    width: 200px;
+}
+figure figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+fieldset input {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+fieldset legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+fieldset label {
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+fieldset button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: rgb(103, 255, 230);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+fieldset button:hover {
+    cursor: pointer;
+}
+.b {
+    border-top: 20px solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 600px;
+    height: 400px;
+    margin: 25px 0 25px 0;
+    display: flex;
+}
+#temperature {
+    border-top-color: greenyellow;
+}
+#weight {
+    border-top-color: rgb(255, 214, 80);
+}
+#distance {
+    border-top-color: rgb(0, 208, 255);
+}
+aside {
+    margin-top: 7px;
+    margin-left: 3px;
+}
+#go-home {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+#go-home img {
+    width: 30px;
+}
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+    padding: 10px 10px 10px 30px;
+    margin: 0 -1cm -1cm -1cm;
+}
